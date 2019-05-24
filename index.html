@@ -34,7 +34,7 @@
   <audio id="audiohelp"><source src="resource/help.mp3" type="audio/mp3"></audio>
 <script>
   var stage;
-  var resourceNames = ['background.svg','bar_home.svg', 'bar_help.svg', 'bar_about.svg', 'flashLightOn.svg', 'flashLightOff.svg','ropeEnd.svg','toyBall.svg','toyBear.svg','toyCar.svg','toyDino.svg','toyDoll.svg','toyRobot.svg','toyTrain.svg']
+  var resourceNames = ['background.svg','bar_home.svg', 'bar_help.svg', 'bar_about.svg', 'flashlightOn.svg', 'flashlightOff.svg','ropeEnd.svg','toyBall.svg','toyBear.svg','toyCar.svg','toyDino.svg','toyDoll.svg','toyRobot.svg','toyTrain.svg']
   var resourcesLoaded = 0;
   var resources = [];
   var ratio = 16/9;
@@ -232,7 +232,7 @@ function queueComplete(event) {
   }
   
   for (var i = 0; i<3; i++){
-	  flashLight[i] = new createjs.Bitmap(imgByName('flashLightOff.svg'));
+	  flashLight[i] = new createjs.Bitmap(imgByName('flashlightOff.svg'));
 	  flashLight[i].i = i;	
 	  flashLight[i].On = false;
 	  flashLight[i].regX = flashLight[i].image.width/2;
@@ -240,13 +240,13 @@ function queueComplete(event) {
 	  function flashLightClick(event){
 	    if (!event.target.moving || (Math.abs(event.target.moveX - event.target.x)<stage.canvas.width/100)){
 	      if (event.target.On){
-	        event.target.image = imgByName('flashLightOff.svg');
+	        event.target.image = imgByName('flashlightOff.svg');
 	        event.target.On = false;
 	        drawLightRay(event.target.i);
 	        stage.update();
 	      }
 	      else{
-	        event.target.image = imgByName('flashLightOn.svg');
+	        event.target.image = imgByName('flashlightOn.svg');
 	        event.target.On = true;
 	        
 	        if (currentToy>=0){
