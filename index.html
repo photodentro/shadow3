@@ -110,7 +110,6 @@
       shadow[i].filters = [
         new createjs.ColorFilter(0,0,0,1,0,0,0,0)];
       shadow[i].cache(0,0,shadow[i].image.width,shadow[i].image.height);
-      console.log(flashLight[i].On)
       shadow[i].visible = flashLight[i].On;
       shadow[i].scaleX = toys[currentToy].scaleX/(flashLight[i].x - stage.canvas.width/2)*stage.canvas.width/2;
       shadow[i].scaleY = toys[currentToy].scaleY/(flashLight[i].x - stage.canvas.width/2)*stage.canvas.width/2;
@@ -327,7 +326,7 @@ function queueComplete(event) {
   }//for each toy
   ropeEnd = new createjs.Bitmap(imgByName('ropeEnd.svg'));
   stage.addChild(ropeEnd);
-  theHelp = new theHelp("Διάλεξε οποίο παιχνίδι θέλεις και τοποθέτησε το στο σχοινί. \nΣτη συνέχεια προσπάθησε να δημιουργήσεις τη σκιά του, αφού πειραματιστείς με το φακό.")
+  theHelp = new theHelp("Διάλεξε οποίο παιχνίδι θέλεις και τοποθέτησε το στο σχοινί. \nΣτη συνέχεια προσπάθησε να δημιουργήσεις τη σκιά του, αφού πειραματιστείς με τους φακούς.")
   theHelp.create();
   theHelp.hide();
   stage.update();
@@ -421,7 +420,6 @@ function resize() {
       toys[i].x = stage.canvas.width/2;
       toys[i].y = stage.canvas.height/2;
       allLights();
-      resize();
     }
     stage.addChild(toys[i]);
 
