@@ -1,0 +1,32 @@
+{
+  "browser": "index.html",
+  "bugs": {
+    "url": "https://github.com/photodentro/shadow3/issues"
+  },
+  "description": "Μηχανισμός σκιάς με τρεις φακούς",
+  "homepage": "https://github.com/photodentro/shadow3#readme",
+  "keywords": [
+    "photodentro",
+    "ts.sch.gr",
+    "sch-webapps",
+    "Προσχολική Εκπαίδευση",
+    "Τεχνολογίες της Πληροφορίας και των Επικοινωνιών"
+  ],
+  "license": "CC-BY-SA-4.0",
+  "name": "@ts.sch.gr/l10853",
+  "publishConfig": {
+    "access": "public",
+    "@ts.sch.gr:registry": "https://gitlab.com/api/v4/projects/26579410/packages/npm/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/photodentro/shadow3.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "thumbnails": [
+    "package/256x144.png"
+  ],
+  "version": "1.0.0"
+}
