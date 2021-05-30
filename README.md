@@ -1,4 +1,4 @@
-[![Μικρογραφία](https://raw.githubusercontent.com/photodentro/shadow3/main/package/256x144.png)](http://photodentro.edu.gr/photodentro/shadow3_1.0_pidx0056764/)
+[![Μικρογραφία](https://raw.githubusercontent.com/photodentro/shadow3/main/package/256x144.png)](http://photodentro.edu.gr/photodentro/shadow3_v1.0_pidx0056764/)
 
 **ΤΙΤΛΟΣ:** Μηχανισμός σκιάς με τρεις φακούς
 
