@@ -16,7 +16,7 @@
   "name": "@ts.sch.gr/l10853",
   "publishConfig": {
     "access": "public",
-    "@ts.sch.gr:registry": "https://gitlab.com/api/v4/projects/26579410/packages/npm/"
+    "@ts.sch.gr:registry": "https://gitlab.com/api/v4/projects/27031239/packages/npm/"
   },
   "repository": {
     "type": "git",
